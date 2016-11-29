@@ -35,5 +35,8 @@ class DegradationTestCase(unittest.TestCase):
         # - support for different time series frequencies
         # - inputs
 
+    def test_add_more_coverage(self):
+        ''' Test degradation with ols. '''
+
 if __name__ == '__main__':
     unittest.main()
